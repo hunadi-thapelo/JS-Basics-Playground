@@ -44,3 +44,19 @@ for(let k=1;k<=10;k++)
         console.log(k)
     }
 }
+
+console.log("*********** nested if statement with for loop exercise **********")
+//reqirement: print to console the first 3 numbers from 1 to 10, provide common multiple values of 2 and 5
+let x = 0
+for(let k=1;k<=100;k++)
+{
+    if(k%2==0 && k%5==0)
+    {
+        x++
+        console.log(k)
+
+        if(x == 3)
+        break
+    }
+
+}

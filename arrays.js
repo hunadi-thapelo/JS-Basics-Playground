@@ -10,3 +10,6 @@ marks.push(65) // add a new value at end of array
 
 console.log(marks.length) //get length or number of elements in array
 console.log(marks)
+marks.pop()//removes the last element from the array
+marks.unshift(65)//adds element at the start of the array
+console.log(marks)

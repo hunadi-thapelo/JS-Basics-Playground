@@ -15,7 +15,19 @@ marks.unshift(65)//adds element at the start of the array
 console.log(marks) //[ 65, 55, 67, 90, 90, 78, 93 ]
 
 
-console.log(marks.indexOf(90)) //returns index of element 78 = which is 5
+console.log(marks.indexOf(90)) //returns index of element 78 = which is 3
+
+/*Handling when there are more than one?? 
+Use iteration, For Loop
+*/
+var results = [];
+for(i=0;i<marks.length;i++){
+    if(marks[i] == 90){
+        results.push(i);
+    }
+}
+//[ 65, 55, 67, 90, 90, 78, 93 ] = index 3, 4
+console.log(results)
 
 //NB: this is used in automation tests - checking if element exists in an array or not
 console.log(marks.includes(90))

@@ -17,3 +17,5 @@ console.log(marks) //[ 65, 55, 67, 90, 90, 78, 93 ]
 
 console.log(marks.indexOf(90)) //returns index of element 78 = which is 5
 
+//NB: this is used in automation tests - checking if element exists in an array or not
+console.log(marks.includes(90))

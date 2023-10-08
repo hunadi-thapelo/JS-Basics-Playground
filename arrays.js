@@ -31,3 +31,13 @@ console.log(results)
 
 //NB: this is used in automation tests - checking if element exists in an array or not
 console.log(marks.includes(90))
+
+
+/* START: New array to work with slice operation */
+
+//preferred and simpliest vway to declare an array
+var firstTermMarks = [66,90,80,79,91,85,54,71,52, 100, 69]
+subFirstTermMarks = firstTermMarks.slice(2,6) //80,79,91,85,
+console.log(subFirstTermMarks)
+
+/* END: New array to work with slice operation */

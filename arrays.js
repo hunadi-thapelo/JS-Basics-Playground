@@ -41,3 +41,13 @@ subFirstTermMarks = firstTermMarks.slice(2,6) //80,79,91,85,
 console.log(subFirstTermMarks)
 
 /* END: New array to work with slice operation */
+
+//sum values in array
+var sum = 0
+for(i=0; i<subFirstTermMarks.length; i++){
+
+    sum = sum + subFirstTermMarks[i]
+
+}
+
+console.log('Total sum is ' + sum) //335

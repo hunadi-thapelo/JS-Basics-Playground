@@ -9,3 +9,18 @@ var marks = [80,79,91,85]
 //0 is the initilize
 let total = marks.reduce((sum,mark)=>sum+mark,0)
 console.log(total)
+
+console.log('create new array with even numbers')
+//Goal: create new array with even numbers
+var points = [11, 9, 5, 4, 7, 10, 3, 2, 1, 6, 200]
+var newPoints = []
+
+for( var i = 0; points.length > i; i++){
+
+    if(points[i] % 2 == 0){
+
+        newPoints.push(points[i])
+    }
+}
+
+console.log(newPoints)

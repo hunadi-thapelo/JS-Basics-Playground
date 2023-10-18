@@ -24,3 +24,9 @@ for( var i = 0; points.length > i; i++){
 }
 
 console.log(newPoints)
+
+/*Goal: create new array with even numbers
+USING FILTER METHOD
+*/
+let newFilteredPoints = points.filter(point=>point%2 == 0)
+console.log(newFilteredPoints)

@@ -36,3 +36,5 @@ console.log(newFilteredPoints)
 
 let newMappedArray = newPoints.map(point=>point * 3)
 console.log(newMappedArray)
+let mappedArrayTotals = newMappedArray.reduce((sum,totalVal)=> sum+totalVal,0)
+console.log(mappedArrayTotals)

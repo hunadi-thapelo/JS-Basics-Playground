@@ -30,3 +30,9 @@ USING FILTER METHOD
 */
 let newFilteredPoints = points.filter(point=>point%2 == 0)
 console.log(newFilteredPoints)
+
+/*Goal: USING MAP METHOD multiply each element by 3 in newPoints array
+*/
+
+let newMappedArray = newPoints.map(point=>point * 3)
+console.log(newMappedArray)

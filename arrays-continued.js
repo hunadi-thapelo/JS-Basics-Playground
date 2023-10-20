@@ -38,3 +38,10 @@ let newMappedArray = newPoints.map(point=>point * 3)
 console.log(newMappedArray)
 let mappedArrayTotals = newMappedArray.reduce((sum,totalVal)=> sum+totalVal,0)
 console.log(mappedArrayTotals)
+
+//use filter, map and reduce methods 
+let scores = [50, 24, 61, 12]
+
+let scoresValue = scores.filter(score=>score%2 == 0).map(score=> score * 3).reduce((sum,totalVal)=> sum+totalVal,0)
+
+console.log(scoresValue)

@@ -1,8 +1,15 @@
 
-function add(a,b)
-{
+function add(a,b){
     return a+b
 }
 
-let sumofVal = add(3,9)
-console.log(sumofVal)
+let sumOfVal = add(3,9)
+console.log(sumOfVal)
+
+//Goal to optimise functions: Working anonymous function (functions expressions)
+
+let sumOfInt = function(a,b){
+    return a+b
+}
+
+console.log(sumOfInt(4,3))

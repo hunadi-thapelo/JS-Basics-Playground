@@ -51,8 +51,8 @@ console.log(scoresValue)
 
 //sort strings
 let fruits = ["mango", "apple", "pear", "guava"]
-fruits.sort()
-console.log(fruits)
+console.log(fruits.sort())
+console.log(fruits.reverse())
 
 //sort numbers using the bubble sort algorithm
 let grades = [70, 44, 67, 98]

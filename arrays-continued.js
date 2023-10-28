@@ -57,3 +57,5 @@ console.log(fruits)
 //sort numbers using the bubble sort algorithm
 let grades = [70, 44, 67, 98]
 console.log(grades.sort((a,b)=> a-b))
+//reverse order
+console.log(grades.sort((a,b)=> b-a))

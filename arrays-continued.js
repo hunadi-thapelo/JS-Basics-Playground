@@ -49,6 +49,11 @@ console.log(scoresValue)
 
 //WORKING WITH SORT
 
+//sort strings
 let fruits = ["mango", "apple", "pear", "guava"]
 fruits.sort()
 console.log(fruits)
+
+//sort numbers using the bubble sort algorithm
+let grades = [70, 44, 67, 98]
+console.log(grades.sort((a,b)=> a-b))

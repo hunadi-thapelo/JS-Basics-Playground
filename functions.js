@@ -13,3 +13,6 @@ let sumOfInt = function(a,b){
 }
 
 console.log(sumOfInt(4,3))
+
+let sumOfNumber =(a,b) => a+b
+console.log(sumOfNumber(11,3))

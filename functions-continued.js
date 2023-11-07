@@ -17,3 +17,17 @@ function greetings(a,b){
 }
 
 console.log(greet)
+
+
+/**************       LET KEYWORD (from ES6)   ***************/
+
+//scope of let is global if declared in global level
+let greetings1 = "Halo"
+
+//or in block level only when declared in a block in inside curly braces {}
+if (1 == 1){
+    let greetings1 = "Hello"
+   
+}
+//let cannot be redeclared BUT var can be redeclared
+console.log(greetings1)

@@ -23,6 +23,7 @@ console.log(greet)
 
 //scope of let is global if declared in global level
 let greetings1 = "Halo"
+greetings1 = "Ola" //reinitialized let. BOTH let and VAR can be reinitilized
 
 //or in block level only when declared in a block in inside curly braces {}
 if (1 == 1){

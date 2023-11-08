@@ -32,3 +32,16 @@ if (1 == 1){
 }
 //let cannot be redeclared BUT var can be redeclared
 console.log(greetings1)
+
+
+/**************       CONST KEYWORD (from ES6)   ***************/
+//scope of const keyword is the same a let, only difference is that it cannot be reinitilized
+
+const dayGreetings = "Sunrise"
+//dayGreetings = "Morning" //reinitialized let. BOTH let and VAR can be reinitilized
+
+if (1 == 1){
+    let dayGreetings = "Good Morning"
+   
+}
+console.log(dayGreetings)

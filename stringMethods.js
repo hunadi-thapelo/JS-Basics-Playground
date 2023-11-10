@@ -20,3 +20,12 @@ console.log(sportSplit[1]) // all
 //Working with trim function
 console.log(sportSplit[1].length) // 4
 console.log(sportSplit[1].trim().length)
+
+
+//Convert String to Number
+
+let today = "10"
+let restDay = "18"
+
+let daysLeft = parseInt(restDay) - parseInt(today)
+console.log("No. of days left: " + daysLeft)

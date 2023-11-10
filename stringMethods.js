@@ -1,4 +1,4 @@
-let sport = "Basketball"
+let sport = "Basketball "
 //day = "Congratulations"
 
 //Get length of string
@@ -16,3 +16,7 @@ console.log(sport[0]) //B
 let sportSplit = sport.split("b")
 console.log(sportSplit[0]) // Baseket
 console.log(sportSplit[1]) // all
+
+//Working with trim function
+console.log(sportSplit[1].length) // 4
+console.log(sportSplit[1].trim().length)

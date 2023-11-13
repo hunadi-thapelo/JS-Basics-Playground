@@ -33,3 +33,8 @@ console.log("No. of days left: " + daysLeft)
 //Concatenate two Strings
 let newString = "I have never played "+sport
 console.log(newString)
+
+//Find index of..
+let newString2 = "The "+sport + "is in the basket net"
+let indexVal = newString2.indexOf("basket") //index = 25 
+console.log(indexVal)

@@ -4,7 +4,7 @@ let sport = "Basketball "
 //Get length of string
 console.log(sport.length)
 
-//Get length of string
+//Get a SubString
 let subSport = sport.slice(0,6) //starts count from 0...
 console.log(subSport) // Basket
 
@@ -29,3 +29,7 @@ let restDay = "18"
 
 let daysLeft = parseInt(restDay) - parseInt(today)
 console.log("No. of days left: " + daysLeft)
+
+//Concatenate two Strings
+let newString = "I have never played "+sport
+console.log(newString)

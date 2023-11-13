@@ -35,6 +35,8 @@ let newString = "I have never played "+sport
 console.log(newString)
 
 //Find index of..
-let newString2 = "The "+sport + "is in the basket net"
-let indexVal = newString2.indexOf("basket") //index = 25 
-console.log(indexVal)
+let newString2 = "The "+sport+"goal net is in the basket net"
+console.log(newString2)
+let indexVal = newString2.indexOf("net")
+console.log(indexVal) //index = 20 (starts count from 0, includes spaces) 
+//The Basketball goal net is in the basket net

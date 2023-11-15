@@ -15,3 +15,7 @@ console.log(person.firstName)
 //Add a property to existing object
 person.gender = "female"
 console.log(person)
+
+//Delete property in object
+delete person.gender
+console.log(person)

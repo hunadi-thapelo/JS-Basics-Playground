@@ -19,3 +19,7 @@ console.log(person)
 //Delete property in object
 delete person.gender
 console.log(person)
+
+//Check if property exists in object
+console.log("firstName" in person)
+

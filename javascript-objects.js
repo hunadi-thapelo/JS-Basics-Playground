@@ -3,6 +3,7 @@
 let person = {
     firstName: "Naledi",
     lastName: "Dlamini",
+        age: 12,
     fullName: function(){
         console.log(this.firstName+' '+this.lastName)
     }    

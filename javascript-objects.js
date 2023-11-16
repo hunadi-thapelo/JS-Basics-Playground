@@ -23,3 +23,11 @@ console.log(person)
 //Check if property exists in object
 console.log("firstName" in person)
 
+// Iterate object to print values of the JS object
+/* using enhanced For loop */
+for(let key in person){
+
+    console.log(person[key])
+
+}
+

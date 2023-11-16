@@ -2,9 +2,13 @@
 
 let person = {
     firstName: "Naledi",
-    lastName: "Dlamini"
+    lastName: "Dlamini",
+    fullName: function(){
+        console.log(this.firstName+' '+this.lastName)
+    }    
 }
 
+console.log(person.fullName())
 console.log(person.firstName)
 console.log(person["lastName"])
 

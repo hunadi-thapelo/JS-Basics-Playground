@@ -10,11 +10,22 @@ class Person{
         return 'Johannesburg'
 
     }
+    constructor(firstName, lastName) //instance variable = firstname + lastname
+    {
+      //to get scope of variables outside this method create this.
+      this.firstName = firstName
+      this.lastName = lastName
+    }
 
+    fullName(){
+      console.log(this.firstName +" " +this.lastName)
+    }
 }
 
 //To access property - create object of class
-let personOne = new Person()
+let personOne = new Person("John", "Doe")
+let personTwo = new Person("Pam", "Jones")
+personOne.fullName()
+personTwo.fullName()
 console.log(personOne.age)
-
 console.log(personOne.city)

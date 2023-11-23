@@ -1,4 +1,4 @@
-class Person{
+module.exports = class Person{
     
     //define property of class
     age = 30
@@ -22,6 +22,7 @@ class Person{
     }
 }
 
+/*
 //To access property - create object of class
 let personOne = new Person("John", "Doe")
 let personTwo = new Person("Pam", "Jones")
@@ -29,3 +30,4 @@ personOne.fullName()
 personTwo.fullName()
 console.log(personOne.age)
 console.log(personOne.city)
+*/

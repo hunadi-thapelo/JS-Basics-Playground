@@ -18,3 +18,6 @@ class Pet extends Person {
     }
 
 }
+
+let myPet = new Pet("Miss", "Monk")
+myPet.fullName()

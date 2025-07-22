@@ -2,6 +2,9 @@ const flag = true
 let hasValidDriversLicense = false
 let hasValidRaceTicket = true
 
+const cars = ["Tesla", "Lexus", "Volvo", "Toyota", "Mini", "BMW", "VW"];
+const target = "Toyota";
+
 if(!flag)//expression is reversed (with negation), however variable remains unchanged
 {
     console.log("Condition is satisfied")
@@ -21,9 +24,15 @@ if( hasValidDriversLicense && hasValidRaceTicket){
 
 }
 
+//iterates through array and breaks when targetted element is found
 
-
-
+for (const car of cars) {
+    if (car === target) {
+      console.log(`Found the target: ${car}`);
+      break;
+    }
+    console.log(`Current item: ${car}`);
+  }
 
 /*
 //while loop
@@ -76,5 +85,4 @@ for(let k=1;k<=100;k++)
     }
 
 }
-
 */

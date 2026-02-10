@@ -4,12 +4,12 @@ let person = {
     firstName: "Naledi",
     lastName: "Dlamini",
         age: 12,
-    fullName: function(){
-        console.log(this.firstName+' '+this.lastName)
+    fullName: function() {  //how to read this: fullName is of type function that returns nothing (property) fullName: () => void)
+       console.log(this.firstName+' '+this.lastName)
     }    
 }
 
-console.log(person.fullName())
+person.fullName()
 console.log(person.firstName)
 console.log(person["lastName"])
 
@@ -30,9 +30,9 @@ console.log("firstName" in person)
 
 // Iterate object to print values of the JS object
 /* using enhanced For loop */
-for(let key in person){
+ for(let key in person){
 
-    console.log(person[key])
+     console.log(person[key])
 
-}
+ }
 
